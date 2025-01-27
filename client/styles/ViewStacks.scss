@@ -1,0 +1,116 @@
+@import "./Variables.scss";
+
+.ViewStacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+  .stacks-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .stack-header {
+    font-size: 2rem;
+  }
+
+  .stack-count {
+    font-size: 1.5rem;
+  }
+
+  .stack-count-num {
+    font-weight: bold;
+  }
+
+  .stack-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  ///--------------------------------------------------------------------
+  /* Main page styling */
+
+  /* Description and toggle */
+  .stack-description {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  .toggle-expand {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Stack count */
+  .stack-count {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  /* Stack actions */
+  .stack-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* FontAwesome icons */
+  .fa-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition:
+      color 0.3s,
+      transform 0.2s;
+    margin-right: 15px;
+  }
+
+  /* Review button color */
+  .fa-brain {
+    color: $pastel-pink;
+  }
+
+  .fa-brain :hover {
+    color: $pastel-pink-dark;
+  }
+
+  /* Edit button color */
+  .fa-pen {
+    color: $pastel-orange;
+  }
+
+  .fa-pen :hover {
+    color: $pastel-orange-dark;
+  }
+
+  /* Delete button color */
+  .fa-trash {
+    color: $pastel-red;
+  }
+
+  .fa-trash:hover {
+    color: $pastel-red-dark;
+  }
+
+
+   .fa-sync{
+    color: $pastel-teal ;
+  }
+
+  .fa-sync:hover{
+    color: $pastel-teal-dark ;
+  }
+}

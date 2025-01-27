@@ -1,0 +1,118 @@
+[
+    {
+        "question": "How can you create a simple container?",
+        "answer": "docker create [IMAGE_NAME]"
+    },
+    {
+        "question": "How do you create and run a container?",
+        "answer": "docker run [IMAGE_NAME]"
+    },
+    {
+        "question": "How can you start a stopped container?",
+        "answer": "docker start [CONTAINER_NAME]"
+    },
+    {
+        "question": "What command is used to stop a running container?",
+        "answer": "docker stop [CONTAINER_NAME]"
+    },
+    {
+        "question": "How do you restart a running container?",
+        "answer": "docker restart [CONTAINER_NAME]"
+    },
+    {
+        "question": "What command is used to pause a running container?",
+        "answer": "docker pause [CONTAINER_NAME]"
+    },
+    {
+        "question": "How do you resume a paused container?",
+        "answer": "docker unpause [CONTAINER_NAME]"
+    },
+    {
+        "question": "How can you list running containers?",
+        "answer": "docker ps or docker container ls"
+    },
+    {
+        "question": "How do you remove a container?",
+        "answer": "docker rm [CONTAINER_NAME]"
+    },
+    {
+        "question": "What are Docker container images?",
+        "answer": "Files containing the OS, application, and initial state of a container."
+    },
+    {
+        "question": "How do you build an image from a Dockerfile?",
+        "answer": "docker build -f [DOCKERFILE_PATH]"
+    },
+    {
+        "question": "How can you build an image from a running container?",
+        "answer": "docker commit [CONTAINER_NAME] [IMAGE_NAME]"
+    },
+    {
+        "question": "How do you pull an image from the Docker Hub?",
+        "answer": "docker image pull [IMAGE_NAME]"
+    },
+    {
+        "question": "What is the first step before pushing an image to the Docker Hub?",
+        "answer": "Login using 'docker login'"
+    },
+    {
+        "question": "How do you push an image to the Docker Hub?",
+        "answer": "docker image push [IMAGE_NAME]"
+    },
+    {
+        "question": "How can you list container images?",
+        "answer": "docker image ls or docker images"
+    },
+    {
+        "question": "How do you delete an image from your system?",
+        "answer": "docker image remove [IMAGE_NAME]"
+    },
+    {
+        "question": "What are Docker volumes?",
+        "answer": "Used to persist data across image rebuilds."
+    },
+    {
+        "question": "How do you create a Docker volume?",
+        "answer": "docker volume create [VOLUME_NAME]"
+    },
+    {
+        "question": "How can you remove a Docker volume?",
+        "answer": "docker volume rm [VOLUME_NAME]"
+    },
+    {
+        "question": "How do you inspect a Docker volume?",
+        "answer": "docker volume inspect [VOLUME_NAME]"
+    },
+    {
+        "question": "How can you list all Docker volumes?",
+        "answer": "docker volume ls"
+    },
+    {
+        "question": "What do Docker networks determine?",
+        "answer": "How containers connect to each other and the internet."
+    },
+    {
+        "question": "How do you create a Docker network?",
+        "answer": "docker network create [NETWORK_NAME]"
+    },
+    {
+        "question": "How do you connect a container to a network?",
+        "answer": "docker network connect [NETWORK_NAME] [CONTAINER_NAME]"
+    },
+    {
+        "question": "How can you disconnect a container from a network?",
+        "answer": "docker network disconnect [NETWORK_NAME] [CONTAINER_NAME]"
+    },
+    {
+        "question": "How do you inspect a network?",
+        "answer": "docker network inspect [NETWORK_NAME]"
+    },
+    {
+        "question": "How can you list all Docker networks?",
+        "answer": "docker network ls"
+    },
+    {
+        "question": "How do you remove a network?",
+        "answer": "docker network rm [NETWORK_NAME]"
+    }
+]

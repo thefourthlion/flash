@@ -1,0 +1,359 @@
+1. What is the AWS global infrastructure composed of?
+Answer: Availability Zones, Regions, Edge Locations
+
+2. What does AWS stand for?
+Answer: Amazon Web Services
+
+3. Which AWS service is used to run virtual machines in the cloud?
+Answer: AWS EC2
+
+4. Which service is best suited for storing large amounts of unstructured data?
+Answer: Amazon S3
+
+5. What is AWS IAM used for?
+Answer: Managing users and permissions
+
+6. Which of the following is a serverless compute service in AWS?
+Answer: AWS Lambda
+
+7. Which AWS service helps to distribute content to end users with low latency?
+Answer: Amazon CloudFront
+
+8. What is Amazon RDS used for?
+Answer: Running managed relational databases
+
+9. Which service can be used to automate the provisioning and management of infrastructure in AWS?
+Answer: AWS CloudFormation
+
+10. What is the AWS pricing model called for resources that can scale according to demand?
+Answer: Pay-as-you-go
+
+11. What is an AWS region?
+Answer: A geographic area that contains multiple Availability Zones
+
+12. Which service is primarily used for monitoring AWS resources and applications?
+Answer: Amazon CloudWatch
+
+13. What is Amazon S3 designed for?
+Answer: Object storage for storing and retrieving data
+
+14. Which AWS service can automatically scale your application?
+Answer: AWS Auto Scaling
+
+15. What is AWS Elastic Load Balancer (ELB) used for?
+Answer: Distributing incoming application traffic across multiple targets, such as EC2 instances
+
+16. What does Amazon VPC allow you to do?
+Answer: Create a private network within AWS
+
+17. Which AWS service allows you to send bulk emails?
+Answer: Amazon SES (Simple Email Service)
+
+18. What is the purpose of AWS CloudTrail?
+Answer: To log and monitor API calls made on your AWS account
+
+19. Which AWS service allows you to run containerized applications?
+Answer: Amazon ECS (Elastic Container Service)
+
+20. What is the primary purpose of AWS Snowball?
+Answer: To transfer large amounts of data to and from AWS
+
+21. Which service in AWS provides a managed Kubernetes environment?
+Answer: Amazon EKS (Elastic Kubernetes Service)
+
+22. What is the main benefit of AWS CloudHSM?
+Answer: It provides hardware security modules for cryptographic operations
+
+23. Which service helps manage AWS costs and usage?
+Answer: AWS Cost Explorer
+
+24. What is the AWS Free Tier?
+Answer: A program that offers free access to certain AWS services with limited usage for a specified period
+
+25. Which AWS service helps in managing DNS records for domain names?
+Answer: Amazon Route 53
+
+26. What is the benefit of using Amazon Aurora over standard MySQL databases?
+Answer: Aurora is a high-performance, fully managed relational database service
+
+27. What is AWS Lambda?
+Answer: A serverless computing service that runs code in response to events
+
+28. Which AWS service enables automated backups and disaster recovery for EC2 instances?
+Answer: AWS Backup
+
+29. Which AWS service enables you to host your own API endpoints?
+Answer: Amazon API Gateway
+
+30. What is AWS WAF?
+Answer: A web application firewall that helps protect your web applications from common web exploits
+
+31. What type of storage is Amazon EBS (Elastic Block Store)?
+Answer: Block storage for use with Amazon EC2
+
+32. Which AWS service can you use to secure your data in transit?
+Answer: AWS KMS (Key Management Service)
+
+33. What does AWS Direct Connect provide?
+Answer: A dedicated network connection from your premises to AWS
+
+34. What is the main advantage of AWS Trusted Advisor?
+Answer: It provides real-time recommendations to help optimize your AWS environment
+
+35. What is the maximum duration of AWS EC2 Spot Instances?
+Answer: The duration can vary, but they are subject to interruption by AWS with a 2-minute warning
+
+36. What is the main purpose of AWS Glue?
+Answer: A fully managed ETL (Extract, Transform, Load) service
+
+37. What is Amazon Aurora compatible with?
+Answer: MySQL and PostgreSQL
+
+38. Which AWS service would you use for a scalable, managed NoSQL database?
+Answer: Amazon DynamoDB
+
+39. What is the main feature of AWS Elastic Beanstalk?
+Answer: It automatically handles deployment, scaling, and management of applications
+
+40. What does AWS Shield protect against?
+Answer: Distributed Denial of Service (DDoS) attacks
+
+41. Which AWS service provides a fully managed message queue for decoupling microservices?
+Answer: Amazon SQS (Simple Queue Service)
+
+42. What is AWS Fargate used for?
+Answer: Running containers without managing the underlying infrastructure
+
+43. What is AWS CloudWatch primarily used for?
+Answer: Monitoring and observing your AWS resources and applications
+
+44. What is the purpose of the AWS Well-Architected Framework?
+Answer: It helps you design and operate reliable, secure, efficient, and cost-effective systems in the cloud
+
+45. Which service is used to manage and provision a fleet of virtual machines on AWS?
+Answer: AWS EC2 (Elastic Compute Cloud)
+
+46. What is the function of AWS Systems Manager?
+Answer: It provides operational insights and automation for AWS resources
+
+47. What is Amazon S3 Glacier designed for?
+Answer: Low-cost archival storage for data that is infrequently accessed
+
+48. What is the AWS service that helps with real-time data streaming?
+Answer: Amazon Kinesis
+
+49. Which AWS service provides a managed environment for running applications and websites?
+Answer: AWS Elastic Beanstalk
+
+50. What does AWS Config provide?
+Answer: A service for tracking and auditing the configuration of AWS resources
+
+51. What is the AWS Shared Responsibility Model?
+Answer: It defines the division of responsibilities between AWS and customers for securing and managing cloud resources
+
+52. What does AWS Marketplace offer?
+Answer: A digital catalog of third-party software, services, and data that integrate with AWS
+
+53. Which AWS service enables you to analyze and visualize big data?
+Answer: Amazon EMR (Elastic MapReduce)
+
+54. What is the purpose of Amazon RDS?
+Answer: It is a managed relational database service for databases such as MySQL, PostgreSQL, and SQL Server
+
+55. What type of service is AWS Elastic Load Balancing (ELB)?
+Answer: A service that automatically distributes incoming application traffic across multiple EC2 instances
+
+56. Which AWS service provides a fully managed, scalable, and secure virtual network?
+Answer: Amazon VPC
+
+57. What is AWS CloudTrail primarily used for?
+Answer: It records API calls made on your account for auditing purposes
+
+58. What AWS service allows for content delivery to edge locations globally?
+Answer: Amazon CloudFront
+
+59. What is the primary benefit of using AWS Regions?
+Answer: They allow you to deploy applications closer to users to reduce latency
+
+60. Which AWS service is used for automating infrastructure as code?
+Answer: AWS CloudFormation
+
+61. What is Amazon Route 53 used for?
+Answer: It provides DNS (Domain Name System) services
+
+62. What is AWS Elastic File System (EFS) used for?
+Answer: A scalable and managed network file system
+
+63. What is AWS Cost Explorer used for?
+Answer: To visualize and analyze AWS cost and usage data
+
+64. What AWS service provides a way to automate the provisioning of resources through templates?
+Answer: AWS CloudFormation
+
+65. What is AWS Trusted Advisor?
+Answer: A service that provides best practices and recommendations for optimizing your AWS environment
+
+66. Which AWS service helps provide automatic database backups and recovery?
+Answer: Amazon RDS
+
+67. What is the benefit of using AWS VPC Peering?
+Answer: It allows you to route traffic between two VPCs securely
+
+68. What does the AWS Free Tier offer?
+Answer: Free access to a limited set of AWS services for a specified time period
+
+69. Which AWS service can you use to manage traffic across multiple availability zones?
+Answer: Elastic Load Balancing
+
+70. Which AWS service enables seamless hybrid cloud storage?
+Answer: AWS Storage Gateway
+
+71. Which AWS service provides managed scaling and load balancing for containers?
+Answer: Amazon ECS (Elastic Container Service)
+
+72. What type of database is Amazon DynamoDB?
+Answer: A NoSQL database
+
+73. What AWS service is used for monitoring log files and metrics?
+Answer: Amazon CloudWatch
+
+74. What is AWS Systems Manager used for?
+Answer: It automates and manages administrative tasks across AWS resources
+
+75. What service allows you to run event-driven applications without managing servers?
+Answer: AWS Lambda
+
+76. What is AWS CloudTrail's primary purpose?
+Answer: To record AWS API calls for auditing and troubleshooting
+
+77. Which AWS service is used to integrate on-premises applications with cloud resources?
+Answer: AWS Direct Connect
+
+78. What AWS service provides secure access to applications in a private cloud environment?
+Answer: AWS Client VPN
+
+79. What AWS service is used for real-time analytics of streaming data?
+Answer: Amazon Kinesis
+
+80. What AWS service would you use for data backup and recovery in the cloud?
+Answer: AWS Backup
+
+81. Which AWS service can help you automate patch management for EC2 instances?
+Answer: AWS Systems Manager Patch Manager
+
+82. What AWS service is used for serverless web applications?
+Answer: AWS Lambda
+
+83. What is the primary benefit of AWS Auto Scaling?
+Answer: It automatically adjusts the number of EC2 instances based on demand
+
+84. Which AWS service can be used to collect and analyze logs from different AWS services?
+Answer: Amazon CloudWatch Logs
+
+85. What does AWS Data Pipeline allow you to do?
+Answer: Automate data movement and transformation across AWS services
+
+86. Which AWS service helps with cost optimization by providing recommendations based on usage patterns?
+Answer: AWS Cost Explorer
+
+87. Which AWS service is designed for creating machine learning models?
+Answer: Amazon SageMaker
+
+88. What does AWS Config help you with?
+Answer: It provides configuration tracking and compliance monitoring of AWS resources
+
+89. What does Amazon Route 53 allow you to do?
+Answer: Manage domain name system (DNS) records for your AWS resources
+
+90. What is AWS Global Accelerator?
+Answer: A service that improves the availability and performance of applications by routing traffic to optimal endpoints
+
+91. Which service helps you monitor security and compliance across AWS resources?
+Answer: AWS Security Hub
+
+92. What AWS service helps you run containerized applications at scale?
+Answer: Amazon ECS
+
+93. What does AWS Shield protect against?
+Answer: Distributed Denial of Service (DDoS) attacks
+
+94. Which service would you use to host a static website in AWS?
+Answer: Amazon S3
+
+95. What is the AWS Lambda pricing model based on?
+Answer: The number of requests and the duration of code execution
+
+96. What is the primary benefit of Amazon CloudFront?
+Answer: It reduces latency by delivering content from edge locations close to end users
+
+97. Which AWS service offers a fully managed search service?
+Answer: Amazon Elasticsearch Service
+
+98. Which AWS service is used for managing cloud infrastructure resources as code?
+Answer: AWS CloudFormation
+
+99. What is Amazon RDS primarily used for?
+Answer: Managing relational databases
+
+100. Which AWS service is designed for file storage with high throughput?
+Answer: Amazon EFS
+
+101. What does AWS CloudTrail enable?
+Answer: Logging and monitoring API calls for auditing
+
+102. What is AWS Direct Connect used for?
+Answer: Establishing a dedicated network connection from your on-premises data center to AWS
+
+103. Which service is used to create and manage IAM roles?
+Answer: AWS IAM
+
+104. Which service in AWS offers data synchronization across on-premises servers and cloud storage?
+Answer: AWS Storage Gateway
+
+105. What AWS service can help improve the availability and reliability of your application?
+Answer: Amazon Route 53
+
+106. Which AWS service lets you create and manage certificates for securing your applications?
+Answer: AWS ACM (AWS Certificate Manager)
+
+107. What AWS service is used to provision a managed message queuing service?
+Answer: Amazon SQS
+
+108. Which AWS service allows you to run a fully managed NoSQL database?
+Answer: Amazon DynamoDB
+
+109. What is the primary purpose of Amazon Kinesis?
+Answer: Real-time streaming data collection and processing
+
+110. What is the function of AWS Lambda?
+Answer: It runs code in response to triggers without managing servers
+
+111. What is AWS CloudFormation used for?
+Answer: Automating the provisioning of AWS resources using templates
+
+112. Which service can you use to store files that are frequently accessed?
+Answer: Amazon S3
+
+113. What is Amazon Glacier primarily used for?
+Answer: Low-cost storage for archival data
+
+114. Which AWS service helps you distribute content to end users globally?
+Answer: Amazon CloudFront
+
+115. What does AWS Key Management Service (KMS) do?
+Answer: It manages encryption keys for securing data
+
+116. What is the purpose of AWS Auto Scaling?
+Answer: Automatically scaling EC2 instances to match application traffic
+
+117. Which service is designed to analyze big data stored in S3?
+Answer: Amazon Athena
+
+118. What is Amazon CloudWatch used for?
+Answer: Monitoring resources and applications in AWS
+
+119. What AWS service is used to help with data transfer between on-premises systems and AWS?
+Answer: AWS Snowball
+
+120. What is the primary use of AWS Elastic Beanstalk?
+Answer: Automatically managing applications in the cloud

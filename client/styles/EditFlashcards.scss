@@ -1,0 +1,51 @@
+@import "./Variables.scss";
+
+.EditFlashCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100vw;
+    
+    .primary-btn {
+      margin: 0 5px;
+    }
+  }
+    button {
+      margin-top: 10px;
+    }
+
+  .submit-btn {
+    width: 450px !important;
+  }
+
+  .flashcard-card {
+    width: 450px;
+
+    .flashcard-header {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .answer {
+      font-size: 1.1rem;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+  }
+
+  .upload-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

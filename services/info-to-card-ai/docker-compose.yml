@@ -1,0 +1,15 @@
+services:
+  flash-service-info-to-card:
+    build: .
+    container_name: flash-service-info-to-card
+    restart: always
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./:/flash-service-info-to-card
+      - /flash-service-info-to-card/node_modules
+    environment:
+      - NODE_ENV=development
+    stdin_open: true   
+    tty: true        
+    command: npx nodemon index.js

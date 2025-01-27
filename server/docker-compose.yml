@@ -1,0 +1,15 @@
+services:
+  flash-server:
+    build: .
+    container_name: flash-server
+    restart: always
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./:/flash-server
+      - /flash-server/node_modules
+    environment:
+      - NODE_ENV=development
+    stdin_open: true  # This allows interactive commands (optional)
+    tty: true         # This allows for TTY (optional)
+    command: npx nodemon index.js

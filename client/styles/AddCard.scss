@@ -1,0 +1,23 @@
+@import "./Variables.scss";
+
+.AddFlashCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 75px;
+
+  .tag-input-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .tag-close {
+    cursor: pointer;
+    color: $danger;
+    font-weight: bold;
+    margin-left: 2px;
+  }
+}
